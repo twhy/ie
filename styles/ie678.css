@@ -1,0 +1,10 @@
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.ie6 .clearfix,
+.ie7 .clearfix {
+  zoom: 1;
+}

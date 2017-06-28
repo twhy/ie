@@ -1,0 +1,103 @@
+body {
+  color: #333;
+  padding: 30px 0;
+  font-family: Helvetica, sans-serif;
+  background: #f4f4f4;
+}
+
+a {
+  color: #0070e9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.page {
+  width: 600px;
+  margin: auto;
+  padding: 20px 40px;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+h1 {
+  color: #444;
+  font-size: 32px;
+  font-weight: 300;
+  margin: 20px auto 30px;
+  text-align: center;
+}
+
+h1 img {
+  height: 60px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.version {
+  display: table;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.version img {
+  float: left;
+  width: 180px;
+}
+
+.version .desc {
+  width: 420px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.version .desc .details {
+  float: left;
+}
+
+.version .desc .os,
+.version .desc .date {
+  margin: 8px 15px;
+  text-align: left;
+}
+
+.version .desc .links {
+  float: right;
+  margin-top: 20px;
+}
+
+.version .desc .links a {
+  margin-left: 5px;
+}
+
+.joke {
+  margin-top: 30px;
+}
+
+.joke img {
+  width: 500px;
+  margin: auto;
+  display: block;
+}
+
+footer {
+  margin: 30px 0;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: block;
+}
