@@ -51,11 +51,11 @@ h1 img {
 
 .version img {
   float: left;
-  width: 180px;
+  width: 140px;
 }
 
 .version .desc {
-  width: 420px;
+  width: 460px;
   display: table-cell;
   vertical-align: middle;
 }
